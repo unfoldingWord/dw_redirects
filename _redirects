@@ -2,6 +2,59 @@
 # File format:
 # /FromPath ToPath
 
+# Custom entries
+/en/dev/* https://forum.door43.org/c/developer-info/12
+/en/slack$ https://door43.org/en/contact/
+/en/* https://door43.org/en/?lc=en
+/dev/* https://forum.door43.org/c/developer-info/12
+
+# From etherpad days
+/p/* https://git.door43.org/unfoldingWord/en_ta
+
+# Content redirects
+/en/library/t4t https://git.door43.org/Door43/en_t4t
+/en/udb/ep https://git.door43.org/unfoldingWord/en_ust
+/en/ulb/ep https://git.door43.org/unfoldingWord/en_ult
+
+## OBS
+/en/obs https://git.door43.org/unfoldingWord/en_obs
+/en/obs/home https://git.door43.org/unfoldingWord/en_obs
+/en/obs/* https://git.door43.org/unfoldingWord/en_obs/src/master/content/:splat.md
+/obs-diffs/ver_1-to-ver_3.html$ http://ufw.io/obs1-3
+/obs-diffs/ver_2-to-ver_3.html$ http://ufw.io/obs2-3
+/en-x-demo1/* https://git.door43.org/unfoldingWord/en_obs
+
+### OBS tN - issue https://github.com/unfoldingWord-dev/door43.org/issues/120
+/en/obs/notes https://git.door43.org/unfoldingWord/en_obs-tn
+/en/obs/notes/home https://git.door43.org/unfoldingWord/en_obs-tn
+/en/obs/notes/frames/* https://git.door43.org/unfoldingWord/en_obs-tn/src/master/content/:splat.md
+/en/obs/notes/* https://git.door43.org/unfoldingWord/en_obs-tn/src/master/content/:splat
+
+### OBS tQ
+/en/obs/notes/questions/home https://git.door43.org/unfoldingWord/en_obs-tq
+/en/obs/notes/questions/ https://git.door43.org/unfoldingWord/en_obs-tq/src/master/content/:splat.md
+
+## tW
+/en/obe/home https://git.door43.org/unfoldingWord/en_tw
+/en/key-terms https://git.door43.org/unfoldingWord/en_tw
+/en/obe/kt/* https://git.door43.org/unfoldingWord/en_tw/src/master/bible/kt/:splat.md
+/en/obe/other/* https://git.door43.org/unfoldingWord/en_tw/src/master/bible/other/:splat.md
+
+## tQ
+/en/bible/questions/comprehensionhttps://git.door43.org/unfoldingWord/en_tq
+/en/bible/questions/comprehension/home https://git.door43.org/unfoldingWord/en_tq
+/en/bible/questions/comprehension/* https://git.door43.org/unfoldingWord/en_tq/src/master/:splat
+
+## tA
+/en/ta/vol1/intro/statement_of_faith https://door43.org/en/statement-of-faith/
+/en/ta/vol1/intro/translation_guidelines https://door43.org/en/translation-guidelines/
+/en/ta/vol1/intro/open_license https://door43.org/en/copyright-and-licensing/
+/en/ta/* https://git.door43.org/unfoldingWord/en_ta
+
+## tN
+/en/bible/notes/home https://git.door43.org/unfoldingWord/en_tn
+/en/bible/notes/* https://git.door43.org/unfoldingWord/en_tn/src/master/:splat
+
 # Language code redirect entries
 /abp/* https://door43.org/en/?lc=abp
 /abs/* https://door43.org/en/?lc=abs
@@ -207,12 +260,6 @@
 /zh-tw/* https://door43.org/en/?lc=zh-tw
 /zmz/* https://door43.org/en/?lc=zmz
 /zu/* https://door43.org/en/?lc=zu
-
-# Custom entries
-/en/dev/* https://forum.door43.org/c/developer-info/12
-/en/slack$ https://door43.org/en/contact/;
-/en/* https://door43.org/en/?lc=en
-/dev/* https://forum.door43.org/c/developer-info/12
 
 # If nothing else matches, load the main page
 /* https://door43.org/
