@@ -4,7 +4,7 @@
 
 # Custom entries
 /en/dev/* https://forum.door43.org/c/developer-info/12
-/en/slack$ https://door43.org/en/contact/
+/en/slack https://door43.org/en/contact/
 /en/* https://door43.org/en/?lc=en
 /dev/* https://forum.door43.org/c/developer-info/12
 
@@ -20,8 +20,8 @@
 /en/obs https://git.door43.org/unfoldingWord/en_obs
 /en/obs/home https://git.door43.org/unfoldingWord/en_obs
 /en/obs/* https://git.door43.org/unfoldingWord/en_obs/src/master/content/:splat.md
-/obs-diffs/ver_1-to-ver_3.html$ http://ufw.io/obs1-3
-/obs-diffs/ver_2-to-ver_3.html$ http://ufw.io/obs2-3
+/obs-diffs/ver_1-to-ver_3.html http://ufw.io/obs1-3
+/obs-diffs/ver_2-to-ver_3.html http://ufw.io/obs2-3
 /en-x-demo1/* https://git.door43.org/unfoldingWord/en_obs
 
 ### OBS tN - issue https://github.com/unfoldingWord-dev/door43.org/issues/120
