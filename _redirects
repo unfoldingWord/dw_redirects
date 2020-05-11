@@ -1,0 +1,11 @@
+# Redirects for our dw.door43.org domain, rules are processed top to bottom
+# File format:
+# FromPath ToPath
+
+/en/dev/* https://forum.door43.org/c/developer-info/12
+/en/slack$ https://door43.org/en/contact/;
+/en/* https://door43.org/en/?lc=en
+/dev/* https://forum.door43.org/c/developer-info/12
+
+# If nothing else matches, load the main page
+/* https://door43.org/
