@@ -2,6 +2,7 @@
 # File format:
 # /FromPath ToPath
 
+
 # Content redirects
 /en/library/t4t https://git.door43.org/Door43/en_t4t
 /en/udb/ep https://git.door43.org/unfoldingWord/en_ust
@@ -251,6 +252,27 @@
 /zh-tw/* https://door43.org/en/?lc=zh-tw
 /zmz/* https://door43.org/en/?lc=zmz
 /zu/* https://door43.org/en/?lc=zu
+
+# Helpdesk redirects
+/en/knowledgebase/5-general-questions https://forum.door43.org/c/general
+/en/knowledgebase/9-translationstudio https://ts-info.readthedocs.io/en/latest/
+/en/knowledgebase/12-translationstudio-desktop https://ts-info.readthedocs.io/en/latest/desktop.html
+/en/knowledgebase/13-translationstudio-android https://ts-info.readthedocs.io/en/latest/tablet.html
+/en/knowledgebase/15-door43-content-service https://forum.door43.org/c/software/dcs-documentation 
+/en/knowledgebase/15-door43-content-service/docs/39-suggest-an-edit-on-dcs https://forum.door43.org/t/make-a-suggested-edit-on-dcs/70/1
+/en/knowledgebase/15-door43-content-service/docs/40-create-a-new-release https://forum.door43.org/t/create-a-new-release/74/1
+/en/knowledgebase/15-door43-content-service/docs/41-translate-content-online https://forum.door43.org/t/translate-content-online/75/1
+/en/knowledgebase/15-door43-content-service/docs/46-protected-branch-workflow https://forum.door43.org/t/protected-branch-workflow/76/1
+/en/knowledgebase/12-translationstudio-desktop/docs/8-what-s-new-with-translationstudio-version-11 https://forum.door43.org/t/whats-new-with-translationstudio-version-11/105
+/en/knowledgebase/9-translationstudio/docs/8-what-s-new-with-translationstudio-version-11 https://forum.door43.org/t/whats-new-with-translationstudio-version-11/105
+/en/knowledgebase/12-translationstudio-desktop/docs/35-what-s-new-for-version-11-1 https://forum.door43.org/t/whats-new-for-version-11-1/108
+/en/knowledgebase/13-translationstudio-android/docs/38-what-s-new-for-version-11 https://forum.door43.org/t/ts-android-whats-new-for-version-11/118
+/en/knowledgebase/12-translationstudio-desktop* https://forum.door43.org/c/software/ts-documentation
+/en/knowledgebase/13-translationstudio-android* https://ts-info.readthedocs.io/en/latest/tablet.html
+/en/knowledgebase/9-translationstudio* https://forum.door43.org/c/software/ts-documentation
+/en/knowledgebase/6-troubleshooting* https://forum.door43.org/c/software
+/en/knowledgebase https://forum.door43.org/
+/en/knowledgebase/* https://forum.door43.org/
 
 # Custom entries
 /en/dev/* https://forum.door43.org/c/developer-info/12
