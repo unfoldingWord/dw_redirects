@@ -279,6 +279,7 @@
 /en/slack https://door43.org/en/contact/
 /en/* https://door43.org/en/?lc=en
 /dev/* https://forum.door43.org/c/developer-info/12
+/output/* https://us.door43.org/output/:splat
 
 # From etherpad days
 /p/* https://git.door43.org/unfoldingWord/en_ta
